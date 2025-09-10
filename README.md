@@ -1,7 +1,7 @@
-# PDF Chunker Tool
+# ChunkyPDF
 
 ## 📖 Overview
-**PDF Chunker** is an internal-only tool for converting large sets of PDF manuals, flyers, and technical documents into structured text "chunks" suitable for ingestion into downstream systems (e.g., Aprimo, Palantir Foundry, or other AI pipelines).  
+**ChunkyPDF** is an internal-only tool for converting large sets of PDF manuals, flyers, and technical documents into structured text "chunks" suitable for ingestion into downstream systems (e.g., Aprimo, Palantir Foundry, or other AI pipelines).  
 
 The tool:
 - Accepts a folder of PDF files (both digital-born and scanned).  
