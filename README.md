@@ -66,7 +66,7 @@ cd C:\Users\****\Projects\pdf_chunker
 python pdf_chunker.py "C:\path\to\pdfs" --out "C:\path\to\chunks" --version v2025.09.10
 
 ```
-## License
+## License 'SIMPLIFIED'
 This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
 
 ### 🤓 LONG STORY SHORT
