@@ -59,7 +59,7 @@ No warranty is expressed or implied regarding functionality, fitness for purpose
 
 ```powershell
 # Activate virtual environment
-cd C:\Users\Phil\Projects\ChunkyPDF
+cd C:\Path\To\ChunkyPDF
 .\.venv\Scripts\Activate.ps1
 
 # Run ChunkyPDF against a folder of PDFs
@@ -130,15 +130,13 @@ This project is **not** distributed or sublicensed outside the company.
 All dependencies are used in accordance with their licenses for internal processing only.  
 Redistribution or commercial distribution would require a license review and possibly alternative arrangements for AGPL/GPL components.
 
-## REQUIRED INSTALLS
+---
 
-ocrmypdf
-unstructured [all-docs]
-pymupdf
-pdfplumber
-tiktoken
-pandas
-pyarrow
-tqdm
+## 📦 Installing Requirements
 
+After activating the virtual environment (`(.venv)` shows in your prompt), run the following command to install all dependencies in one go:
+
+```powershell
+python -m pip install --upgrade pip setuptools wheel ^
+  && pip install ocrmypdf "unstructured[all-docs]" pymupdf pdfplumber tiktoken pandas pyarrow tqdm
 
